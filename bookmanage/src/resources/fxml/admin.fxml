@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.soft1841.book.controller.AdminController">
+    <Label text="图书管理员管理" styleClass="font-title" AnchorPane.topAnchor="10"
+           AnchorPane.leftAnchor="50"/>
+    <HBox AnchorPane.leftAnchor="50" AnchorPane.topAnchor="50">
+        <ImageView fitWidth="100" fitHeight="100">
+            <Image url="/img/12.jpg"/>
+        </ImageView>
+    </HBox>
+    <Label  styleClass="font-title"  AnchorPane.topAnchor="80"  AnchorPane.leftAnchor="200" text="超级管理员"/>
+    <Label  styleClass="font-title"  AnchorPane.topAnchor="80"  AnchorPane.leftAnchor="350" text="账号：tianzhen" />
+    <Label  styleClass="font-title"  AnchorPane.topAnchor="80"  AnchorPane.leftAnchor="550" text="管理权限：所有"/>
+    <Label  styleClass="font-title"  AnchorPane.topAnchor="80"  AnchorPane.leftAnchor="750" text="邮箱：1299088269@qq.com"/>
+    <Label  styleClass="font-title"  AnchorPane.topAnchor="80"  AnchorPane.leftAnchor="1100" text="联系方式：19850099292"/>
+
+    <HBox AnchorPane.leftAnchor="50" AnchorPane.topAnchor="180">
+        <ImageView fitWidth="100" fitHeight="100">
+            <Image url="/img/2.jpg"/>
+        </ImageView>
+    </HBox>
+    <Label  styleClass="font-title"  AnchorPane.topAnchor="200"  AnchorPane.leftAnchor="200" text="图书管理员"/>
+    <Label  styleClass="font-title"  AnchorPane.topAnchor="200"  AnchorPane.leftAnchor="350" text="账号：tianzhen" />
+    <Label  styleClass="font-title"  AnchorPane.topAnchor="200"  AnchorPane.leftAnchor="550" text="管理权限：图书"/>
+    <Label  styleClass="font-title"  AnchorPane.topAnchor="200"  AnchorPane.leftAnchor="750" text="邮箱： 2303771402@qq.com"/>
+    <Label  styleClass="font-title"  AnchorPane.topAnchor="200"  AnchorPane.leftAnchor="1100" text="联系方式：19850099303"/>
+
+
+    <HBox AnchorPane.leftAnchor="50" AnchorPane.topAnchor="310">
+        <ImageView fitWidth="100" fitHeight="100">
+            <Image url="/img/3.jpg"/>
+        </ImageView>
+    </HBox>
+    <Label  styleClass="font-title"  AnchorPane.topAnchor="320"  AnchorPane.leftAnchor="200" text="读者管理员"/>
+    <Label  styleClass="font-title"  AnchorPane.topAnchor="320"  AnchorPane.leftAnchor="350" text="账号：tianzhen" />
+    <Label  styleClass="font-title"  AnchorPane.topAnchor="320"  AnchorPane.leftAnchor="550" text="管理权限：借阅"/>
+    <Label  styleClass="font-title"  AnchorPane.topAnchor="320"  AnchorPane.leftAnchor="750" text="邮箱： 2313673906@qq.com"/>
+    <Label  styleClass="font-title"  AnchorPane.topAnchor="320"  AnchorPane.leftAnchor="1100" text="联系方式：19850099791"/>
+</AnchorPane>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.TextFlow?>
+<?import javafx.scene.text.Text?>
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.soft1841.sample8.JianShuController"
+            prefHeight="400.0" prefWidth="600.0">
+<top>
+    <AnchorPane prefHeight="80" prefWidth="1600">
+
+        <ImageView fx:id="logo" AnchorPane.topAnchor="11" AnchorPane.leftAnchor="10">
+            <Image url="/img/logo.png" />
+        </ImageView>
+        <TextField text="发现"  style="-fx-background-color:rgb(236, 97, 73) " prefWidth="50" AnchorPane.topAnchor="17" AnchorPane.leftAnchor="220"/>
+        <ImageView    AnchorPane.leftAnchor="180" AnchorPane.topAnchor="17"  >
+            <Image url="/img/top1.png"     />
+        </ImageView>
+        <TextField text="关注" prefWidth="50"  style="-fx-background-color: rgb(236, 97, 73)" AnchorPane.topAnchor="17" AnchorPane.leftAnchor="320"/>
+        <ImageView    AnchorPane.leftAnchor="285" AnchorPane.topAnchor="17"  >
+            <Image url="/img/top2.png"     />
+        </ImageView>
+        <TextField text="消息" prefWidth="50"   style="-fx-background-color: rgb(236, 97, 73)"  AnchorPane.topAnchor="17" AnchorPane.leftAnchor="420"/>
+        <ImageView    AnchorPane.leftAnchor="380" AnchorPane.topAnchor="17"  >
+            <Image url="/img/top3 .png"     />
+        </ImageView>
+        <TextField text="搜索"    AnchorPane.topAnchor="17" AnchorPane.leftAnchor="520"/>
+
+
+        <TextField text="Aa" prefWidth="40" AnchorPane.topAnchor="17" AnchorPane.rightAnchor="200"/>
+        <ImageView  fitWidth="60" fitHeight="60" AnchorPane.topAnchor="11" AnchorPane.rightAnchor="120">
+            <Image url="/img/user.png"  />
+        </ImageView>
+        <Button text="写文章" style="-fx-background-color: rgb(236, 97, 73)"  fx:id="testBtn1"   AnchorPane.rightAnchor="15" AnchorPane.topAnchor="15
+"/>
+
+    </AnchorPane>
+</top>
+
+<center>
+
+<AnchorPane prefHeight="800" prefWidth="600">
+    <ImageView fx:id="banner" AnchorPane.topAnchor="20" AnchorPane.leftAnchor="150">
+
+        <Image url="/img/banner.png" />
+    </ImageView>
+
+
+    <Label text="在支教中我学到了什么? " styleClass="dbt" AnchorPane.leftAnchor="150" AnchorPane.topAnchor="450">
+    </Label>
+    <Label text="让晨曦在湛蓝的天空下升起 晨曦是夜幕的风铃，摇响破晓的号角，晨曦是宇宙
+" styleClass="wbe"
+           AnchorPane.topAnchor="475" AnchorPane.leftAnchor="150">
+    </Label>
+    <Label text="的种子，给万物留下生机，晨曦是鲜活的舞者，让青春充满希冀，晨曦是..." styleClass="wbe"
+           AnchorPane.leftAnchor="150" AnchorPane.topAnchor="500">
+    </Label>
+
+    <ImageView   fx:id="bottom1"  AnchorPane.leftAnchor="800" AnchorPane.topAnchor="450">
+        <Image   url="/ing/01.png"/>
+
+
+    </ImageView>
+    <Label text="长椅上的秋？ " styleClass="dbt" AnchorPane.leftAnchor="150" AnchorPane.topAnchor="650">
+    </Label>
+    <Label text="长椅上的秋 陈少波 文/摄 这个秋天很美 叶子飘落的时候 树下年轻的情侣 在哪里
+" styleClass="wbe"
+           AnchorPane.topAnchor="675" AnchorPane.leftAnchor="150">
+    </Label>
+    <Label text="呢 空空的长椅上 还有你们相拥的余温 叶子零落前 刚听过你们的情..." styleClass="wbe"
+           AnchorPane.leftAnchor="150" AnchorPane.topAnchor="700">
+
+
+    </Label>
+
+    <Label text="基础|问我为什么要画几何？看看吧，这就是答案！" fx:id="dbt" AnchorPane.leftAnchor="150" AnchorPane.bottomAnchor="15">
+    </Label>
+
+    <ImageView   fx:id="bottom3"  AnchorPane.leftAnchor="800" AnchorPane.bottomAnchor="155">
+        <Image   url="/ing/02.jpg"/>
+    </ImageView>
+</AnchorPane>
+
+</center>
+
+<right>
+
+    <VBox>
+        <AnchorPane>
+            <ImageView AnchorPane.rightAnchor="180" AnchorPane.topAnchor="10">
+                <Image url="/img/right1.png"/>
+            </ImageView>
+            <ImageView AnchorPane.rightAnchor="180" AnchorPane.topAnchor="95">
+                <Image url="/img/right2.png"/>
+            </ImageView>
+            <ImageView AnchorPane.rightAnchor="180" AnchorPane.topAnchor="180">
+                <Image url="/img/right3.png"/>
+            </ImageView>
+            <ImageView AnchorPane.rightAnchor="180" AnchorPane.topAnchor="270">
+                <Image url="/img/right4.png"/>
+            </ImageView>
+            <ImageView AnchorPane.rightAnchor="180" AnchorPane.topAnchor="355">
+                <Image url="/img/right5.png"/>
+            </ImageView>
+            <Button text="推荐作者" AnchorPane.topAnchor="500" AnchorPane.rightAnchor="470"/>
+            <Button text="换一批 " styleClass="xwz" AnchorPane.rightAnchor="300" AnchorPane.topAnchor="500">
+            </Button>
+            <ImageView AnchorPane.rightAnchor="470" AnchorPane.topAnchor="550">
+                <Image url="/ing/1.png"/>
+            </ImageView>
+            <Label text="王诗翔 " styleClass="xwz" AnchorPane.rightAnchor="410" AnchorPane.topAnchor="550">
+            </Label>
+            <Label text="写了445k字·1.8k喜欢 " styleClass="xwz" AnchorPane.rightAnchor="310" AnchorPane.topAnchor="575">
+            </Label>
+            <Label text="关注 " styleClass="xwz" AnchorPane.rightAnchor="300" AnchorPane.topAnchor="550">
+            </Label>
+              <ImageView    AnchorPane.rightAnchor="340" AnchorPane.topAnchor="550"  >
+                  <Image url="/ing/right.png"     />
+              </ImageView>
+
+            <ImageView AnchorPane.rightAnchor="470" AnchorPane.topAnchor="625">
+                <Image url="/ing/2.png"/>
+            </ImageView>
+            <Label text="大学堂 " styleClass="xwz" AnchorPane.rightAnchor="410" AnchorPane.topAnchor="625">
+            </Label>
+            <Label text="写了456k字·1.9k喜欢 " styleClass="xwz" AnchorPane.rightAnchor="300" AnchorPane.topAnchor="650">
+            </Label>
+            <Label text="关注 " styleClass="xwz" AnchorPane.rightAnchor="300" AnchorPane.topAnchor="625">
+            </Label>
+
+            <ImageView    AnchorPane.rightAnchor="340" AnchorPane.topAnchor="625"  >
+                <Image url="/ing/right.png"     />
+            </ImageView>
+
+
+
+            <ImageView AnchorPane.topAnchor="700" AnchorPane.rightAnchor="470">
+                <Image url="/ing/3.png"/>
+            </ImageView>
+            <Label text="吴晓布" styleClass="xwz" AnchorPane.rightAnchor="410" AnchorPane.topAnchor="700">
+            </Label>
+
+            <Label text="写了45k字·1.8k喜欢 " styleClass="xwz" AnchorPane.rightAnchor="315" AnchorPane.topAnchor="725">
+            </Label>
+            <Label text="关注 " styleClass="xwz" AnchorPane.rightAnchor="300" AnchorPane.topAnchor="700">
+            </Label>
+
+            <ImageView    AnchorPane.rightAnchor="340" AnchorPane.topAnchor="700"  >
+                <Image url="/ing/right.png"     />
+            </ImageView>
+
+
+            <ImageView AnchorPane.topAnchor="775" AnchorPane.rightAnchor="470">
+                <Image url="/ing/4.png"/>
+            </ImageView>
+            <Label text="宏宇 " styleClass="xwz" AnchorPane.rightAnchor="410" AnchorPane.topAnchor="775">
+            </Label>
+
+            <Label text="写了288.6k字·18.5k喜欢 " styleClass="xwz" AnchorPane.rightAnchor="280" AnchorPane.topAnchor="800">
+            </Label>
+
+            <Label text="关注 " styleClass="xwz" AnchorPane.rightAnchor="300" AnchorPane.topAnchor="775">
+            </Label>
+
+            <ImageView    AnchorPane.rightAnchor="340" AnchorPane.topAnchor="775"  >
+                <Image url="/ing/right.png"     />
+            </ImageView>
+
+            <ImageView AnchorPane.topAnchor="850" AnchorPane.rightAnchor="470">
+                <Image url="/ing/5.png"/>
+            </ImageView>
+            <Label text=" 多功能医生" styleClass="xwz" AnchorPane.rightAnchor="380" AnchorPane.topAnchor="850">
+            </Label>
+
+            <Label text="写了1433.9k字·26.4k喜欢 " styleClass="xwz" AnchorPane.rightAnchor="280" AnchorPane.topAnchor="875">
+            </Label>
+            <Label text="关注 " styleClass="xwz" AnchorPane.rightAnchor="300" AnchorPane.topAnchor="850">
+            </Label>
+            <ImageView    AnchorPane.rightAnchor="340" AnchorPane.topAnchor="850"  >
+                <Image url="/ing/right.png"     />
+            </ImageView>
+        </AnchorPane>
+    </VBox>
+</right>
+</BorderPane>

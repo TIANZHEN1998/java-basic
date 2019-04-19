@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.FlowPane?>
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.soft1841.sample7.Controller"
+            prefHeight="400.0" prefWidth="600.0">
+    <top>
+        <FlowPane hgap="30">
+            <ComboBox fx:id="genderComboBox" prefWidth="120.0" promptText="性别选择"/>
+            <TextField text="请输入关键词" fx:id="keywordsField" onMouseClicked="#enter"/>
+            <Button text="查询" onAction="#searchByKeywords"/>
+        </FlowPane>
+    </top>
+    <bottom>
+    </bottom>
+    <center>
+        <ListView fx:id="studentListView" prefWidth="850.0"/>
+    </center>
+    <bottom>
+        <Label text="NIIT软件1841班通讯录"/>
+    </bottom>
+</BorderPane>

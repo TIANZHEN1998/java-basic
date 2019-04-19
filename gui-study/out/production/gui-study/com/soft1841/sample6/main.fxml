@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import java.lang.*?><?import java.util.*?>
+<?import javafx.scene.*?><?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?><?import javafx.geometry.Insets?>
+<BorderPane
+        xmlns="http://javafx.com/javafx"
+        xmlns:fx="http://javafx.com/fxml" fx:controller="com.soft1841.sample6.StudentController" prefHeight="400.0" prefWidth="600.0">
+    <top>
+        <Label text="NIIT软件1841班通讯录"/>
+    </top>
+    <left>
+        <VBox spacing="20">
+            <Button text="百年南工院" onAction="#searchByKeywords"/>
+            <Button text="软件1841" onAction="#searchByKeywords"/>
+            <ComboBox fx:id="subjectRepresentativeComboBox" prefWidth="200.0" promptText="软件1841班寝室"/>
+        </VBox>
+    </left>
+    <center>
+        <HBox>
+            <ComboBox fx:id="genderComboBox" prefWidth="120.0" promptText="请选择性别"/>
+            <ComboBox fx:id="dormComboBox" prefWidth="125.0" promptText="请输入宿舍号"/>
+            <TextField text = "请输入关键词" fx:id="keywordsField" onMouseClicked="#enter"/>
+            <Button text="查询" onAction="#searchByKeywords"/>
+            <ListView fx:id="studentListView">
+            </ListView>
+        </HBox>
+    </center>
+    <bottom>
+        <Label text="NIIT软件1841班通讯录"/>
+    </bottom>
+</BorderPane>

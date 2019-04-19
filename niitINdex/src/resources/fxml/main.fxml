@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <?import javafx.scene.control.*?>
+        <?import javafx.scene.layout.*?>
+        <?import javafx.scene.image.ImageView?>
+        <?import javafx.scene.image.Image?>
+        <?import javafx.scene.shape.Line?>
+<?import com.soft1841.week1.Label7?>
+<?import com.soft1841.week1.Label1?>
+<?import com.soft1841.week1.Label2?>
+<?import com.soft1841.week1.Label3?>
+<?import com.soft1841.week1.Label4?>
+<?import com.soft1841.week1.ShanBeiTextField?>
+<?import com.soft1841.week1.Arrow?>
+<?import com.soft1841.week1.Label6?>
+<?import com.soft1841.week1.Label5?>
+<?import com.soft1841.week1.ShanBeiButton?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.soft1841.week1.Controller"
+            prefHeight="1000.0" prefWidth="800.0">
+
+<AnchorPane>
+    <ImageView   >
+        <Image  url="/img/top.jpg"/>
+    </ImageView>
+    <Label7 text="Hi," styleClass="label7" AnchorPane.topAnchor="220" AnchorPane.leftAnchor="380"/>
+    <Label1 text="从明天起，打卡记录进步" AnchorPane.topAnchor="280" AnchorPane.leftAnchor="300"/>
+    <Label2 text="新词数                                今日单词                            剩余单词                              我的单词  " styleClass="label2" AnchorPane.leftAnchor="120" AnchorPane.topAnchor="390"/>
+    <Label3 styleClass="label3" text="40              81             100             81" AnchorPane.topAnchor="340" AnchorPane.leftAnchor="120"/>
+    <ShanBeiButton text="开始学习" styleClass="button" AnchorPane.leftAnchor="200" AnchorPane.topAnchor="440"/>
+
+    <DatePicker     styleClass="datePicker"  AnchorPane.leftAnchor="350" AnchorPane.topAnchor="440"/>
+    <Line     AnchorPane.topAnchor="530" startY="50.0" endX="1400" endY="50"/>
+    <Label4 text="口语                                 听力                                阅读                                炼句" AnchorPane.leftAnchor="150" AnchorPane.topAnchor="600"/>
+    <ImageView  AnchorPane.topAnchor="550"  AnchorPane.leftAnchor="150">
+        <Image  url="/img/bottom1.png"/>
+    </ImageView>
+    <ImageView  AnchorPane.topAnchor="550"  AnchorPane.leftAnchor="300">
+        <Image  url="/img/bottom2.png"/>
+    </ImageView>
+    <ImageView  AnchorPane.topAnchor="550"  AnchorPane.leftAnchor="450">
+        <Image  url="/img/bottom3.png"/>
+    </ImageView>
+    <ImageView  AnchorPane.topAnchor="550"  AnchorPane.leftAnchor="600">
+        <Image  url="/img/bottom4.png"/>
+    </ImageView>
+
+    <ShanBeiTextField styleClass="textfield" text="            查询单词" AnchorPane.topAnchor="440" AnchorPane.leftAnchor="350"/>
+
+
+
+
+</AnchorPane  >
+<Arrow AnchorPane.bottomAnchor="45" AnchorPane.leftAnchor="20">
+    <Image   url="/img/001.png"/>
+</Arrow>
+<Arrow AnchorPane.bottomAnchor="45" AnchorPane.leftAnchor="250">
+    <Image   url="/img/002.png"/>
+</Arrow>
+<Arrow AnchorPane.bottomAnchor="45" AnchorPane.rightAnchor="250">
+    <Image   url="/img/003.png"/>
+</Arrow>
+<Arrow AnchorPane.bottomAnchor="45" AnchorPane.rightAnchor="20">
+    <Image   url="/img/004.png"/>
+</Arrow>
+<Line     AnchorPane.bottomAnchor="350" startY="50.0" endX="1400" endY="50"/>
+<Label6 text ="-英语大师进阶之路-" AnchorPane.bottomAnchor="280" AnchorPane.leftAnchor="300"/>
+<Label5 text="首页                                              课程                                                      发现
+
+                                          我的" AnchorPane.leftAnchor="20" AnchorPane.bottomAnchor="10"/>
+
+
+<ImageView AnchorPane.bottomAnchor="100" AnchorPane.leftAnchor="50">
+    <Image url="/img/shanbei1.jpg" />
+</ImageView>
+<ImageView AnchorPane.leftAnchor="300" AnchorPane.bottomAnchor="100">
+    <Image url="/img/shanbei2.jpg" />
+</ImageView>
+<ImageView AnchorPane.bottomAnchor="100" AnchorPane.rightAnchor="50">
+    <Image url="/img/shanbei3.jpg" />
+</ImageView>
+
+</AnchorPane>

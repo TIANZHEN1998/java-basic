@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import com.niit.week1.ZhiHuButton?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.text.Text?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.niit.week1.ZhiHuButtonController"
+            prefHeight="400.0" prefWidth="600.0">
+
+    <Text   text="关注"    style="-fx-font-size: 16px"    AnchorPane.topAnchor="70" AnchorPane.leftAnchor="50"/>
+    <Text   text="推荐"    style="-fx-font-size: 16px"    AnchorPane.topAnchor="70" AnchorPane.leftAnchor="250"/>
+    <Text   text="热榜"    style="-fx-font-size: 16px"    AnchorPane.topAnchor="70" AnchorPane.rightAnchor="250"/> <Text   text="视频"    style="-fx-font-size: 16px"    AnchorPane.topAnchor="70" AnchorPane.rightAnchor="50"/>
+
+
+
+    <ImageView   fx:id="top1"  AnchorPane.leftAnchor="320" AnchorPane.topAnchor="120">
+    <Image url="/img/1.png"/>
+    </ImageView>
+
+    <ImageView   fx:id="top2"  AnchorPane.leftAnchor="360" AnchorPane.topAnchor="120">
+        <Image url="/img/2.png"/>
+    </ImageView>
+
+    <ImageView   fx:id="top3"  AnchorPane.leftAnchor="400" AnchorPane.topAnchor="120">
+        <Image url="/img/3.png"/>
+    </ImageView>
+
+    <ImageView   fx:id="top4"  AnchorPane.leftAnchor="440" AnchorPane.topAnchor="120">
+    <Image url="/img/4.png"/>
+    </ImageView>
+
+
+        <Label text="想在知乎上认识志趣相投的朋友吗? " AnchorPane.leftAnchor="290" AnchorPane.topAnchor="170">
+        </Label>
+
+    <ZhiHuButton text="开始吧" AnchorPane.leftAnchor="350" AnchorPane.topAnchor="200"/>
+    <Text   text="你可能感兴趣的人"    style="-fx-font-size: 16px"    AnchorPane.topAnchor="250" AnchorPane.leftAnchor="10"/>
+
+    <ImageView   fx:id="right"  AnchorPane.leftAnchor="10" AnchorPane.topAnchor="300">
+        <Image url="/img/123.jpg"/>
+    </ImageView>
+
+</AnchorPane>

@@ -1,0 +1,9 @@
+.root{
+    -fx-background-image: url("/img/8.jpg");
+}
+#studentListView{
+    -fx-max-height: 700px;
+    -fx-max-width: 600px;
+    -fx-font-size: 14px;
+}
+
